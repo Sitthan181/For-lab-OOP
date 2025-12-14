@@ -6,7 +6,7 @@
 This repository contains the source code for my **Object-Oriented Programming (OOP)** labs at the Faculty of Information Technology (KMITL) so I don't have to use Google drive.
 
 ---
-<img scr="https://media.tenor.com/yW2qWwQiwkYAAAAi/wuwa-phoebe-wuwa.gif" alt="Phoebe confuse" width="400"/>
+<img src="https://media.tenor.com/yW2qWwQiwkYAAAAi/wuwa-phoebe-wuwa.gif" alt="Phoebe confuse" width="400"/>
 
 ## 📂 World Map (Project Structure)
 
