@@ -1,0 +1,23 @@
+import java.util.* ;
+public class temp {
+    public static void main(String []args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Temperature (°C): ");
+        double temp = sc.nextDouble();
+        System.out.println("Enter humidity (%): ");
+        double humidity = sc.nextDouble();
+        sc.close();
+        if ( temp > 37.5 ) {
+            System.out.println("Warning: High temperature!");
+        } 
+        else {
+            System.out.println("Temperature normal.");
+        }
+        if (humidity > 80) {
+            System.out.println("Humidity is too high.");
+        }
+        else {
+            System.out.println("Humidity is acceptable.");
+        }
+    }
+}
