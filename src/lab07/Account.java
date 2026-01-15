@@ -9,7 +9,7 @@ public class Account {
     public void depost(double a){
         if (a > 0){
             balance += a;
-            System.out.println(a + "baht is deposted to " + name + ".");
+            System.out.println(a + " baht is deposited to " + name + ".");
         } else {
             System.out.println("Input number must be a positive integer.");
         }
@@ -21,7 +21,7 @@ public class Account {
             System.out.println("Not enough money!");
         } else {
             balance -= a;
-            System.out.println(a + "baht is withdraw to " + name + ".");
+            System.out.println(a + " baht is withdraw to " + name + ".");
         }
     }
     public void setName(String name){
@@ -37,6 +37,6 @@ public class Account {
         return balance;
     }
     public void showAccount(){
-        System.out.println(name + "account has " + balance + " baht.");
+        System.out.println(name + " account has " + balance + " baht.");
     }
 }
