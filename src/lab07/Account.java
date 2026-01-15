@@ -6,7 +6,7 @@ public class Account {
         this.balance = balance;
         this.name = name;
     }
-    public void depost(double a){
+    public void deposit(double a){
         if (a > 0){
             balance += a;
             System.out.println(a + " baht is deposited to " + name + ".");
@@ -21,7 +21,7 @@ public class Account {
             System.out.println("Not enough money!");
         } else {
             balance -= a;
-            System.out.println(a + " baht is withdraw to " + name + ".");
+            System.out.println(a + " baht is withdraw from " + name + ".");
         }
     }
     public void setName(String name){
