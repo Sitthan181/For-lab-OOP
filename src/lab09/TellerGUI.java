@@ -12,7 +12,7 @@ public class TellerGUI implements ActionListener {
     private Account account;
 
     public TellerGUI() {
-        account = new Account(10, "Sitthan");
+        account = new Account(6000, "Sitthan");
         fr = new JFrame("Teller GUI - " + account.getName());
         
         lb1 = new JLabel("Balance");
